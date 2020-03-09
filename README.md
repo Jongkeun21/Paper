@@ -11,3 +11,13 @@ A Deep Learning Model for Judging Presence or Absence of Lesions in the Chest X-
  
 #### 요약
  흉부 영상을 통해 진단 가능한 병변은 Atelectasis, Pneumothorax, Effusion 등 그 종류가 수십 가지에 이른다. 흉부 병변의 정확한 진단과 위치 및 크기를 판단하기 위해 일반적으로 전산화단층촬영(CT) 검사가 필요하지만, 전산화단층촬영은 검사 비용과 방사선 피폭 등의 단점이 있다. 따라서 본 논문에서는 흉부 병변 진단의 일차적 선별도구로서 방사선검사(X-ray) 영상에서 병변 유무 판단을 위한 딥러닝 알고리즘을 제안한다. 제안하는 알고리즘은 병변의 유무 판단에 최적화하기 위해 다양한 구성 방법들을 비교하여 설계하였다. 실험 결과, 기존 알고리즘보다 병변 유무 판단률이 약 1% 정도 향상되었다.
+
+
+#### Development Environment
+- Language : Python 3.7.3 (Tensorflow-GPU, Keras)
+- OS : Windows 10 Home 64bit
+- CPU : Intel Core i7-6700 CPU @ 3.40GHz
+- RAM : 12 GB
+- GPU : NVIDIA GeForce GTX 1050 Ti 4GB
+- CUDA : version 10.0
+- cuDNN : version 7.5.1
